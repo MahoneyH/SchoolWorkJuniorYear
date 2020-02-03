@@ -1,0 +1,9 @@
+primeKey,Media Type,Name,descirptition,Genre,Year,Critic Score,aval,Price,platform/disk,rating
+0001,2,Resident Evil,Zombie third person shooter,Horror,2017,5,TRUE,1,xbox,M
+0002,2,Trival Pursuit,Test your knowledge against your friends,Trivia,2018,4,TRUE,1,xbox,E
+0003,2,Call of Duty,You know what his is another installment,FPS,2017,9.7,TRUE,1,ps4,T
+0004,2,Candy Crush,Crush the candy win the game,Puzzle,2016,4.6,TRUE,1,ps4,A
+0005,1,Goosebumps,Will scare all kids,Horror,2004,3.1,TRUE,1,dvd,PG
+0006,1,World War 2,Learn about how bad the War was,Documentary ,2005,1.5,TRUE,1,dvd,PG-13
+0007,1,Sausage Party,NOT FOR CHILDERN,Comedy,1990,3.5,TRUE,1,blu-ray,R
+0008,1,Up,Still a better love story than twilight,Romance,1991,10,TRUE,1,blu-ray,G

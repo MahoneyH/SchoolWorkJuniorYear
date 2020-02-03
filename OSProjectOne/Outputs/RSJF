@@ -1,0 +1,156 @@
+run:
+5 2 6 3 3
+PCB 1
+cpuBurstIndex=0
+IOburstIndex=0
+remainCPUBurstTime=0
+remainIOBurstTime=0
+remainingTicks=3
+
+3 1 2 2 4 1 3
+PCB 2
+cpuBurstIndex=0
+IOburstIndex=0
+remainCPUBurstTime=0
+remainIOBurstTime=0
+remainingTicks=4
+
+2 6 2 6 2
+PCB 3
+cpuBurstIndex=0
+IOburstIndex=0
+remainCPUBurstTime=0
+remainIOBurstTime=0
+remainingTicks=3
+
+3 4 2
+PCB 4
+cpuBurstIndex=0
+IOburstIndex=0
+remainCPUBurstTime=0
+remainIOBurstTime=0
+remainingTicks=2
+
+6 5 6
+PCB 5
+cpuBurstIndex=0
+IOburstIndex=0
+remainCPUBurstTime=0
+remainIOBurstTime=0
+remainingTicks=2
+
+
+Would you like to use SJF or Round Robin or Reverse SJF?(1 = SJF, 2= RR, 3 = RSJF): 3
+Time: 0
+     CPU:  0 
+     Job:  3 5  
+   Ready:  1 2 4  
+    Disk:   
+      IO:  
+
+Time: 0
+     CPU:  2 
+     Job:  3 5  
+   Ready:  1 4  
+    Disk:   
+      IO:  
+
+Time: 3
+     CPU:  4 
+     Job:  3  
+   Ready:  1 5  
+    Disk:  2  
+      IO:  
+
+Time: 6
+     CPU:  3 
+     Job:   
+   Ready:  1 5  
+    Disk:  2 4  
+      IO:  
+
+Time: 8
+     CPU:  2 
+     Job:   
+   Ready:  1 5  
+    Disk:  3  
+      IO:  4 
+
+Time: 10
+     CPU:  4 
+     Job:   
+   Ready:  1 5  
+    Disk:  3  
+      IO:  
+
+Time: 12
+     CPU:  5 
+     Job:   
+   Ready:  1  
+    Disk:  3 4  
+      IO:  
+
+Time: 17
+     CPU:  3 
+     Job:   
+   Ready:  1 4  
+    Disk:  5  
+      IO:  
+
+Time: 19
+     CPU:  4 
+     Job:   
+   Ready:  1 5  
+    Disk:  3  
+      IO:  
+
+Time: 23
+     CPU:  1 
+     Job:   
+   Ready:  5  
+    Disk:  3 4  
+      IO:  
+
+Time: 29
+     CPU:  3 
+     Job:   
+   Ready:  5 4  
+    Disk:  1  
+      IO:  
+
+Time: 31
+     CPU:  4 
+     Job:   
+   Ready:  5  
+    Disk:  1  
+      IO:  
+
+Time: 34
+     CPU:  5 
+     Job:   
+   Ready:  1  
+    Disk:   
+      IO:  
+
+Time: 40
+     CPU:  1 
+     Job:   
+   Ready:   
+    Disk:  5  
+      IO:  
+
+Time: 46
+     CPU:  5 
+     Job:   
+   Ready:   
+    Disk:   
+      IO:  
+
+Time: 49
+     CPU:  0 
+     Job:   
+   Ready:   
+    Disk:   
+      IO:  
+
+BUILD SUCCESSFUL (total time: 2 seconds)

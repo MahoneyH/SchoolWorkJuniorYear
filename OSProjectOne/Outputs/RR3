@@ -1,0 +1,179 @@
+run:
+5 2 6 3 3
+PCB 1
+cpuBurstIndex=0
+IOburstIndex=0
+remainCPUBurstTime=0
+remainIOBurstTime=0
+remainingTicks=3
+
+3 1 2 2 4 1 3
+PCB 2
+cpuBurstIndex=0
+IOburstIndex=0
+remainCPUBurstTime=0
+remainIOBurstTime=0
+remainingTicks=4
+
+2 6 2 6 2
+PCB 3
+cpuBurstIndex=0
+IOburstIndex=0
+remainCPUBurstTime=0
+remainIOBurstTime=0
+remainingTicks=3
+
+3 4 2
+PCB 4
+cpuBurstIndex=0
+IOburstIndex=0
+remainCPUBurstTime=0
+remainIOBurstTime=0
+remainingTicks=2
+
+6 5 6
+PCB 5
+cpuBurstIndex=0
+IOburstIndex=0
+remainCPUBurstTime=0
+remainIOBurstTime=0
+remainingTicks=2
+
+
+Would you like to use SJF or Round Robin or Reverse SJF?(1 = SJF, 2= RR, 3 = RSJF): 2
+Enter a quantum time: 
+3
+Time: 0
+     CPU:  1 
+     Job:  4 5  
+   Ready:  2 3  
+    Disk:   
+      IO:  
+
+Time: 3
+     CPU:  2 
+     Job:  4 5  
+   Ready:  3 1  
+    Disk:   
+      IO:  
+
+Time: 6
+     CPU:  3 
+     Job:  5  
+   Ready:  1 4  
+    Disk:  2  
+      IO:  
+
+Time: 8
+     CPU:  1 
+     Job:  5  
+   Ready:  4 2  
+    Disk:  3  
+      IO:  
+
+Time: 10
+     CPU:  4 
+     Job:   
+   Ready:  2 5  
+    Disk:  3 1  
+      IO:  
+
+Time: 13
+     CPU:  2 
+     Job:   
+   Ready:  5 1  
+    Disk:  3 4  
+      IO:  
+
+Time: 15
+     CPU:  5 
+     Job:   
+   Ready:  1 3  
+    Disk:  4 2  
+      IO:  
+
+Time: 18
+     CPU:  1 
+     Job:   
+   Ready:  3 5  
+    Disk:   
+      IO:  2 4 
+
+Time: 21
+     CPU:  3 
+     Job:   
+   Ready:  5 1  
+    Disk:   
+      IO:  2 4 
+
+Time: 23
+     CPU:  5 
+     Job:   
+   Ready:  1 2  
+    Disk:  3  
+      IO:  4 
+
+Time: 26
+     CPU:  1 
+     Job:   
+   Ready:  2 4  
+    Disk:  5  
+      IO:  3 
+
+Time: 29
+     CPU:  2 
+     Job:   
+   Ready:  4  
+    Disk:  5 1  
+      IO:  3 
+
+Time: 32
+     CPU:  4 
+     Job:   
+   Ready:  2  
+    Disk:   
+      IO:  3 1 5 
+
+Time: 34
+     CPU:  2 
+     Job:   
+   Ready:   
+    Disk:   
+      IO:  3 1 5 
+
+Time: 35
+     CPU:  3 
+     Job:   
+   Ready:   
+    Disk:   
+      IO:  1 5 
+
+Time: 37
+     CPU:  1 
+     Job:   
+   Ready:  5  
+    Disk:   
+      IO:  
+
+Time: 40
+     CPU:  5 
+     Job:   
+   Ready:   
+    Disk:   
+      IO:  
+
+Time: 43
+     CPU:  5 
+     Job:   
+   Ready:   
+    Disk:   
+      IO:  
+
+Time: 46
+     CPU:  0 
+     Job:   
+   Ready:   
+    Disk:   
+      IO:  
+
+BUILD SUCCESSFUL (total time: 2 seconds)
